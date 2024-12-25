@@ -161,6 +161,9 @@ function showAlert(message, type) {
     form.parentNode.insertBefore(alertDiv, form);
 
     // Auto-dismiss alert after 5 seconds
+    // setTimeout(() => {
+    //     alertDiv.remove();
+    // }, 5000);
     setTimeout(() => {
         alertDiv.remove();
     }, 5000);
